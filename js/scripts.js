@@ -1,18 +1,17 @@
 
-jQuery("h1").click(function() {
-  alert("This is a heading.");
-});
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $("#walrus-showing").slideToggle();
+    $("#walrus-hidden").slideToggle();
+  });
 
-jQuery("p").click(function() {
-  alert("This is a paragrapgh.");
-});
+  $(".sclick").click(function() {
+    $("#smokey-showing").fadeToggle();
+    $("#smokey-hidden").fadeToggle();
+  });
 
-jQuery("img").click(function() {
-  alert("This is an image");
+  $(".kclick").click(function() {
+    $("#sathy-showing").slideToggle();
+    $("#sathy-hidden").slideToggle();
+  });
 });
-
-jQuery("h1").click(function() {
-  alert("This is a heading.");
-  alert("I told you, THIS IS A HEADING!")
-});
-

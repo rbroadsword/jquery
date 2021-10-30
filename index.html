@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/bootstrap.css" rel="stylesheet"  type="text/css">
+  <link  href="./css/styles.css" rel="stylesheet" type="text/css">
+  <script src="./js/jquery-3.6.0.js"></script>
+  <script src="./js/scripts.js"></script>
   <title>HTML HELP</title>
 </head>
 <body>
   <div class="container">
-    <h1>HTML help</h1>
-
-    <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
-    
-    <p>Look at this cute walrus!</p>
-    <img src="./img/Snapchat-697107597.jpeg" width="40%" height="40%">
-  </div>
-
-  <div class="container">
     <h1>Peek-a-boo</h1>
 
-    <p>Let's play peek-a-boo. Click here to see the surprise!</p>
+    <p><strong>Peek-a-boo</strong> is an ancient game riddled in mystery and deceit. Though it appears to be an innocent children's pastime, you may change your mind when you learn of its treacherous history.</p>
+    <div id="walrus-hidden">
+      <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+    </div>
 
-    <div class="walrus-showing">
-      <img src="./img/Snapchat-697107597.jpeg">
+    <div id="walrus-showing">
+      <p>What cute sluts! <span class="clickable">Click here</span> to hide her again.</p>
+      <img src="./img/Snapchat-697107597.jpeg" height="40%" width="40%">
+    </div>
+  
+    <div id="smokey-hidden">
+      <p>Feeling lucky? <span class="sclick">CLICK HERE</span> for a present from Smokey</p>
+    </div>
+
+    <div id="smokey-showing">
+      <p>GRRT! <span class="sclick">GRRRT me again!</span></p>
+      <img src="./img/Adobe_20210130_220101.jpg" height="40%" width="40%">
+    </div>
+
+    <div id="sathy-hidden">
+      <p>what's he up to now? <span class="kclick">CLICK</span></p>
+    </div>
+
+    <div id="sathy-showing">
+      <p>MMMMMMMM Mmmmmm <span class="kclick">CLICKY</span></p>
+      <img src="./img/Adobe_20200905_221250.jpg" height="40%" width="40%">
     </div>
   </div>
-
-  <script src="./js/jquery-3.6.0.js"></script>
-  <script src="./js/scripts.js"></script>
 </body>
 </html>

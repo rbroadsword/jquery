@@ -1,0 +1,38 @@
+#walrus-showing {
+  display: none;
+}
+
+#smokey-showing {
+  display: none;
+}
+
+#sathy-showing {
+  display:none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.sclick {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.sclick:hover {
+  text-decoration: underline;
+}
+
+.kclick {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.kclick:hover {
+  text-decoration: underline;
+}
